@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* Задає позицію маркерів списку */
+  
+
+  /* Прибирає стилі посилань */
+  /* Прибирає стилі списків */
+  list-style-type: none;
+  
+}  
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  min-height: 100%;
+  background-color: antiquewhite;
+  overflow: hidden;
+  padding: 10px;
+}
+/* ! Different border colors 
+.ad-container {
+  width: 75%;
+  position: relative;
+}
+.ad-text {
+  border: 10px solid rgb(0, 172, 43);
+ text-align: center;
+ 
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.top-border {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 5px solid red;
+  border-width: 5px 1px;
+  border-top-right-radius: 10px;
+}
+.bottom-border {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 5px solid red;
+  border-width: 5px 1px;
+  border-bottom-left-radius: 10px;
+}
+*/
+
+
+/* ! Responsive Table 
+main {
+  background-color: rgba(127, 255, 212, 0.336);
+  min-height: 100vh;
+  padding: 30px;
+}
+.page-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.page__container {
+  overflow-x: auto;
+}
+.page__table {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #000;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.page__table tr:first-child td {
+  padding: 15px 0;
+  font-weight: 700;
+}
+th, td {
+  border: 1px solid black;
+  border-top: 0;
+  border-left: 0;
+  padding: 5px 0;
+}
+th {
+  border-left: 1px solid #000;
+  border-right: 2px solid red;
+}
+
+th {
+  width: 200px;
+  position: sticky;
+  left: 0;
+  background-color: rgb(174, 206, 149);
+}
+td {
+  width: 50px;
+  text-align: center;
+  padding: 2px 0;
+}
+
+@media (max-width: 1764.98px) {
+  .page__table {
+  
+  }
+  th {
+    width: 160px;
+  }
+  td {
+    width: 35px;
+    padding: 2px 0;
+  }
+  .page__table tr:first-child td {
+    break-after: column;
+    -webkit-break-after: column;
+  }
+}
+@media (max-width: 1279.98px) {
+  .page__table {
+  
+  }
+  th {
+    width: 160px;
+  }
+  .page__table tr:first-child td {
+    padding: 10px 0;
+    font-weight: 700;
+  }
+  .page__table tr:first-child td {
+    break-after: column;
+    -webkit-break-after: column;
+  }
+}
+
+input {
+  width: 100%;
+  background-color: inherit;
+  border: none;
+  text-align: center;
+  font-size: inherit;
+}
+*/
+
+
+main {
+  height: 100vh;
+  overflow: auto;
+ 
+  
+  background-color: #9999990e;
+  padding-bottom: 15px;
+}
+
+
+table {
+  border-top: 1px solid #000;
+
+  border-left: 1px solid #000;
+  
+  table-layout: fixed;
+  border-spacing: 0;
+ 
+}
+th, td {
+  
+}
+th {
+ 
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+
+  
+  background-color: rgb(182, 182, 165);
+  
+}
+td {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+/* Date */
+.date {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  border-bottom: 2px solid #ff0303bb;
+}
+/* Number of Order */
+.number-order {
+  
+ 
+}
+/* Name and Surname */
+.name-surname {
+  position: sticky;
+  left: 0;
+  z-index: 10;
+ 
+
+  border-right: 2px solid #ff0303bb;
+}
+
+
+.grading {
+  width: 100%;
+  height: 30px;
+  background-color: inherit;
+  text-align: center;
+  
+  border: none;
+  font-size: 18px;
+
+}
+
+.grading:focus {
+  outline: none;
+  border-bottom: 2px solid #f00808;
+  border-radius: 5px;
+  
+}
