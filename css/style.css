@@ -8,149 +8,71 @@
   /* Прибирає стилі посилань */
   /* Прибирає стилі списків */
   list-style-type: none;
-  
+ 
 }  
 a:link {
   text-decoration: none;
   color: inherit;
 }
 
-/* ! Different border colors 
-.ad-container {
-  width: 75%;
-  position: relative;
-}
-.ad-text {
-  border: 10px solid rgb(0, 172, 43);
- text-align: center;
- 
-  padding: 20px 30px;
-  border-radius: 10px;
-}
-.top-border {
-  width: 50%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 5px solid red;
-  border-width: 5px 1px;
-  border-top-right-radius: 10px;
-}
-.bottom-border {
-  width: 50%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  border: 5px solid red;
-  border-width: 5px 1px;
-  border-bottom-left-radius: 10px;
-}
-*/
 
-
-/* ! Responsive Table 
-main {
-  background-color: rgba(127, 255, 212, 0.336);
-  min-height: 100vh;
-  padding: 30px;
-}
-.page-title {
-  margin-bottom: 30px;
-  text-align: center;
-}
-.page__container {
-  overflow-x: auto;
-}
-.page__table {
-  border-collapse: separate;
-  border-spacing: 0;
-  table-layout: fixed;
-  width: 100%;
-  border: 1px solid #000;
-  border-bottom: 0;
-  border-left: 0;
-  border-right: 0;
-}
-.page__table tr:first-child td {
-  padding: 15px 0;
-  font-weight: 700;
-}
-th, td {
-  border: 1px solid black;
-  border-top: 0;
-  border-left: 0;
-  padding: 5px 0;
-}
-th {
-  border-left: 1px solid #000;
-  border-right: 2px solid red;
-}
-
-th {
-  width: 200px;
-  position: sticky;
-  left: 0;
-  background-color: rgb(174, 206, 149);
-}
-td {
-  width: 50px;
-  text-align: center;
-  padding: 2px 0;
-}
-
-@media (max-width: 1764.98px) {
-  .page__table {
-  
-  }
-  th {
-    width: 160px;
-  }
-  td {
-    width: 35px;
-    padding: 2px 0;
-  }
-  .page__table tr:first-child td {
-    break-after: column;
-    -webkit-break-after: column;
-  }
-}
-@media (max-width: 1279.98px) {
-  .page__table {
-  
-  }
-  th {
-    width: 160px;
-  }
-  .page__table tr:first-child td {
-    padding: 10px 0;
-    font-weight: 700;
-  }
-  .page__table tr:first-child td {
-    break-after: column;
-    -webkit-break-after: column;
-  }
-}
-
-input {
-  width: 100%;
-  background-color: inherit;
-  border: none;
-  text-align: center;
-  font-size: inherit;
-}
-*/
 
 body {
-  min-height: 100%;
-  background-color: antiquewhite;
-  overflow: hidden;
-  padding: 30px 10px;
+  
 }
+.wrapper {
+   
+}
+.workbook {
+
+}
+.workbook__container {
+ padding: 5px 20px 20px;
+
+}
+.workbook__top {
+
+}
+h2 {
+  margin-bottom: 10px;
+  text-align: center;
+
+  position: relative;
+}
+
+#button {
+  position: absolute;
+  top: 10px;
+  background-color: antiquewhite;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.workbook-container__table {
+  
+  overflow: auto;
+  height: 100vh;
+  
+}
+.table {
+  
+  
+  border-top: 1px solid #000;
+
+  border-left: 1px solid #000;
+  
+  border-spacing: 0;
+}
+
+
+
+
 
 main {
   height: 100vh;
+  
   overflow: auto;
- 
   
   background-color: #9999990e;
   padding-bottom: 50px;
@@ -166,7 +88,7 @@ main {
   left: 0;
   z-index: 20;
   border: 1px solid #000;
-  display: none;
+  top: -250px;
   opacity: 0.9;
 }
 a {
@@ -174,6 +96,7 @@ a {
   padding: 10px;
   color: #f00808;
   font-weight: 700;
+  font-size: 30px;
  
 }
 .box button {
@@ -214,15 +137,7 @@ option:focus {
 }
 
 
-table {
-  border-top: 1px solid #000;
 
-  border-left: 1px solid #000;
-  
-  table-layout: fixed;
-  border-spacing: 0;
- 
-}
 th, td {
   
 }
@@ -308,8 +223,4 @@ th {
 }
 
 
-h2 {
-  padding-top: 10px;
-  text-align: center;
- }
 

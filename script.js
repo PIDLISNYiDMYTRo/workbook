@@ -73,8 +73,12 @@ document.getElementById("class-name").addEventListener("change", function () {
 
 
 function myFunction() {
-  document.getElementById("hide").style.display = "block";
+  document.getElementById("hide").style.top = "0";
+  document.getElementById("hide").style.transition = "1s";
+
+  // document.getElementById("hide").style.transitionDuration = "5s";
 }
 function myFunctionhide() {
-  document.getElementById("hide").style.display = "none";
+  document.getElementById("hide").style.top = "-250px";
+  document.getElementById("hide").style.transition = "1s";
 }
